@@ -61,7 +61,7 @@ async def main():
             reply_markup=keyboard
         )
 
-        wait_time = random.randint(120, 300)
+        wait_time = random.randint(300, 500)
         print(f"پیام ارسال شد | ارسال بعدی تا {wait_time} ثانیه دیگر")
 
         await asyncio.sleep(wait_time)
